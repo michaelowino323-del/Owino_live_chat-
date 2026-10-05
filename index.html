@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Owino Live</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+<script src="js/supabase.js"></script>
+
+</head>
+
+
+<body>
+
+
+<!-- TOP BAR -->
+
+<header class="topbar">
+
+    <div class="logo">
+        Owino <span>Live</span>
+    </div>
+
+    <div class="top-actions">
+
+        <a href="login.html"
+           class="login-link">
+            Login
+        </a>
+
+        <a href="signup.html"
+           class="signup-button">
+            Sign Up
+        </a>
+
+    </div>
+
+</header>
+
+
+
+<!-- MAIN LIVE FEED -->
+
+<main class="live-feed">
+
+
+    <!-- FEATURED LIVE -->
+
+    <section class="featured-live">
+
+        <div class="live-background">
+
+            <div class="live-overlay"></div>
+
+            <div class="live-content">
+
+                <div class="live-badge">
+                    🔴 LIVE NOW
+                </div>
+
+                <h1>
+                    Welcome to
+                    <span>Owino Live</span>
+                </h1>
+
+                <p>
+                    Watch live creators,
+                    meet new people and
+                    join the conversation.
+                </p>
+
+                <a href="signup.html"
+                   class="watch-button">
+
+                    Watch Live
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- LIVE CREATORS -->
+
+    <section class="content-section">
+
+        <div class="section-header">
+
+            <div>
+
+                <h2>
+                    🔴 Live Now
+                </h2>
+
+                <p>
+                    Creators streaming right now
+                </p>
+
+            </div>
+
+            <a href="signup.html"
+               class="see-all">
+
+                See all
+
+            </a>
+
+        </div>
+
+
+        <div class="creator-scroll">
+
+
+            <div class="creator-card">
+
+                <div class="creator-image creator-one">
+
+                    <span class="live-label">
+                        LIVE
+                    </span>
+
+                </div>
+
+                <div class="creator-info">
+
+                    <strong>
+                        Creator
+                    </strong>
+
+                    <small>
+                        Join the live
+                    </small>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="creator-card">
+
+                <div class="creator-image creator-two">
+
+                    <span class="live-label">
+                        LIVE
+                    </span>
+
+                </div>
+
+                <div class="creator-info">
+
+                    <strong>
+                        Live Creator
+                    </strong>
+
+                    <small>
+                        Chatting now
+                    </small>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="creator-card">
+
+                <div class="creator-image creator-three">
+
+                    <span class="live-label">
+                        LIVE
+                    </span>
+
+                </div>
+
+                <div class="creator-info">
+
+                    <strong>
+                        Owino Creator
+                    </strong>
+
+                    <small>
+                        Streaming now
+                    </small>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="creator-card">
+
+                <div class="creator-image creator-four">
+
+                    <span class="live-label">
+                        LIVE
+                    </span>
+
+                </div>
+
+                <div class="creator-info">
+
+                    <strong>
+                        New Creator
+                    </strong>
+
+                    <small>
+                        Come say hello
+                    </small>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- WHY OWINO LIVE -->
+
+    <section class="content-section">
+
+        <div class="section-header">
+
+            <div>
+
+                <h2>
+                    Why Owino Live?
+                </h2>
+
+                <p>
+                    Everything creators need
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="feature-grid">
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    🔴
+                </div>
+
+                <h3>
+                    Go Live
+                </h3>
+
+                <p>
+                    Share your moments with
+                    viewers in real time.
+                </p>
+
+            </div>
+
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    💬
+                </div>
+
+                <h3>
+                    Live Chat
+                </h3>
+
+                <p>
+                    Talk with your audience
+                    while you stream.
+                </p>
+
+            </div>
+
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    🛡️
+                </div>
+
+                <h3>
+                    Verified Creators
+                </h3>
+
+                <p>
+                    Creator verification helps
+                    keep the platform safer.
+                </p>
+
+            </div>
+
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    💰
+                </div>
+
+                <h3>
+                    Creator Support
+                </h3>
+
+                <p>
+                    Eligible creators can receive
+                    viewer tips.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- BECOME CREATOR -->
+
+    <section class="creator-banner">
+
+        <div class="creator-banner-content">
+
+            <span>
+                FOR CREATORS
+            </span>
+
+            <h2>
+                Your Live.
+                Your Community.
+                Your Journey.
+            </h2>
+
+            <p>
+                Build your audience and connect
+                with people around the world.
+            </p>
+
+            <a href="signup.html"
+               class="creator-button">
+
+                Become a Creator
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- SAFETY -->
+
+    <section class="safety-section">
+
+        <div class="safety-box">
+
+            <div class="safety-icon">
+                🛡️
+            </div>
+
+            <div>
+
+                <h3>
+                    18+ Platform
+                </h3>
+
+                <p>
+                    Owino Live is intended for adults.
+                    Users must meet the applicable
+                    minimum age requirement and follow
+                    our community and safety rules.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+</main>
+
+
+
+<!-- BOTTOM NAVIGATION -->
+
+<nav class="bottom-nav">
+
+
+    <a href="index.html"
+       class="bottom-item active">
+
+        <span>🏠</span>
+
+        <small>
+            Home
+        </small>
+
+    </a>
+
+
+
+    <a href="signup.html"
+       class="bottom-item">
+
+        <span>🔴</span>
+
+        <small>
+            Live
+        </small>
+
+    </a>
+
+
+
+    <a href="signup.html"
+       class="bottom-item">
+
+        <span>➕</span>
+
+        <small>
+            Create
+        </small>
+
+    </a>
+
+
+
+    <a href="login.html"
+       class="bottom-item">
+
+        <span>💬</span>
+
+        <small>
+            Messages
+        </small>
+
+    </a>
+
+
+
+    <a href="login.html"
+       class="bottom-item">
+
+        <span>👤</span>
+
+        <small>
+            Profile
+        </small>
+
+    </a>
+
+
+</nav>
+
+
+
+<footer>
+
+    <div class="logo">
+        Owino <span>Live</span>
+    </div>
+
+    <p>
+        Go Live. Connect. Earn.
+    </p>
+
+    <p>
+        © 2026 Owino Live
+    </p>
+
+</footer>
+
+
+</body>
+
+</html>
